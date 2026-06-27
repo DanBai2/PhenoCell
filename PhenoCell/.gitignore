@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+*.out
+*.err
+logs/
+
+# Model checkpoints & outputs
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.ckpt
+!requirements.txt
+output/
+results/
+
+# Weights & Biases
+wandb/
+wandb_logs/
+
+# Data files
+*.h5
+*.hdf5
+*.npz
+*.npy
+data/
+datasets/
+
+# HuggingFace cache
+.cache/
+
+# Graphium cache
+graphium_cache/
+
+# Environment files
+.env
+.env.local
